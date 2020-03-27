@@ -28,7 +28,7 @@ class User extends React.Component {
       <div>
         <p>{this.props.deets.name.first} {this.props.deets.name.last}</p>
         <img src={user.picture.thumbnail} alt='nah' />
-        <button onClick={() => this.toggleDetailHandler()}>{buttonText}s</button>
+        <button onClick={() => this.toggleDetailHandler()}>{buttonText}</button>
         {details}
       </div>
     )
